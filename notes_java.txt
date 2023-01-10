@@ -1,0 +1,26 @@
+java standard edition -- core java programming platform, contains all java libraries, 
+jdk is the part of this, latest version: jdk - 8, 
+helps to develop and deploy java applications on desktops, servers and embedded environments. 
+It is used to build standalone apps.
+
+java enterprise edition -- it design to help developers create large scale multi-tier, 
+reliable and secure network applications, 
+java ee - 7 is latest version, portable -- allows an app hosted at one common place and access accross the world, 
+provides api to develop distributed apps that follows client server model.
+
+java micro edition -- allow programmers to develop programs for mobile applications, 
+java 8.3 is the latest version
+
+
+
+JAVA EE LIBRARIES AND API'S:
+
+provides additional libraries -- db access, jdbc, jpa (java persistence API)
+
+RMI
+JMS -- JAVA MESSAGING SERVER
+xml processing
+it also define standard api's for enterprise java beans, servlets, portlets and jsp.
+
+
+
