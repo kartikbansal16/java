@@ -11,12 +11,12 @@ public class BookLauncher{
         
         do {
             System.out.println("MAIN MENU \n=========");
-            System.out.println("1. Add Books:");
-            System.out.println("2. Search Book:");
-            System.out.println("3. Return Book:");
-            System.out.println("4. Receive Rating:");
-            System.out.println("5. List Inventory:");
-            System.out.println("6. Exit:");
+            System.out.println("1. Add Books: ");
+            System.out.println("2. Search Book: ");
+            System.out.println("3. Return Book: ");
+            System.out.println("4. Receive Rating: ");
+            System.out.println("5. List Inventory: ");
+            System.out.println("6. Exit: ");
             System.out.print("Enter your choice(1..6): ");
             
             choice=input.nextInt();
@@ -31,7 +31,7 @@ public class BookLauncher{
                     bookStore.doCheckout(input.next());
                     break;
                 case 3:
-                    System.out.print("Enter the name of the book you want to Return:");
+                    System.out.print("Enter the name of the book you want to Return: ");
                     bookStore.doReturn(input.next());;
                     break;
                 case 4:
